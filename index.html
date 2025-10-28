@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>Site Adele</title>
+  <style>  
+    body {
+      background-color: #000000;
+      color: #c7c7c7;
+      font-family: Palatino, URW Palladio, serif;
+      text-align: center;
+    }
+    h1 {
+      color: #969696;
+    }
+    .galeria img {
+      width: 300px;
+      height: auto;
+      margin: 8px;
+      border: 3px solid #2c2c2c;
+      border-radius: 10px;
+      transition: transform 0.1s ease, box-shadow 0.1s ease;  
+      transform:translateY(-10px);
+      box-shadow:0 12px 20px rgba(201, 200, 200, 0.3);
+    }
+    .redes a {
+      margin: 10px;
+      text-decoration: none;
+      color: rgb(62, 134, 202);
+      background-color: #0e0e0e;
+      padding: 10px 20px;
+      border-radius: 5px;
+      display: inline-block;
+    }
+    .redes a:hover {
+      background-color: #ffffff;
+    }
+    iframe {
+      margin-top: 20px;
+      border-radius: 15px;
+    }
+    .container {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      margin: auto;
+    }
+    .imagem {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .texto-sobre {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color:#000000; 
+      font-weight: 800;
+      font-family: 'Merriweather', serif;
+      text-shadow: 5px 5px 5px rgb(0, 0, 0);
+      transition: transform 0.3s, font-size 0.3s ease;
+    }
+    .texto-sobre:hover {
+      transform: translate(-50%, -50%) scale(1.1);
+    }
+    .imagem-hover {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      margin: auto;
+      border: 3px solid #ccc;
+      border-radius:10%;
+      transition: transform 0.1s ease, box-shadow 0.1s ease;  
+      transform:translateY(-10px);
+      box-shadow:0 12px 20px rgba(241, 241, 241, 0.3);
+    }
+    
+    .menu {
+      margin: 20px 0;
+    }
+    .menu a {
+      margin: 10px;
+      text-decoration: none;
+      color: rgb(62, 134, 202);
+      background-color: #000000;
+      padding: 10px 15px;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+    .menu a:hover {
+      background-color: #ffffff;
+    }
+    .marcadagua{
+      text-align:right;
+    }
+  </style>
+</head>
+<body>  
+  <img src="adelepaginaprincipal.jpg" alt="Adele" width="300px" class="imagem-hover">
+  <hr color="#2c2c2c" size="20px" width="100%" />
+
+  <nav class="menu">
+    <a href="biografia.html">Biografia de Carreira</a>
+    <a href="vida-pessoal.html">Vida Pessoal</a>
+    <a href="discografia.html">Discografia</a>
+    <a href="premiações.html.html">Premiações</a>
+  </nav>
+  <Div class="marcadagua">
+  by:Samily Neves de Campos. Primeiro Infonet
+  </Div>
+  Adele
+  <p>Música mais tocada</p>
+  Rolling in the Deep
+  <div class="musicamaistocada">
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6IAZHEBUIGJ6NJKxxOBIEr?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  </div>
+
+  <hr color="#2c2c2c" size="20px" width="100%" />
+  <p> Fotos </p>
+  <div class="galeria">
+    <img src="Adele1.jpg" alt="Adele 1">
+    <img src="retorno-de-adele-2.webp" alt="Adele 2">
+    <img src="Adele.jpg" alt="Adele 3">
+  </div>
+
+  <hr color="#2c2c2c" size="20px" width="100%" />
+
+  <!-- Redes Sociais -->
+  <h2>Redes Sociais Oficiais</h2>
+  <div class="redes">
+    <a href="https://www.instagram.com/adele?igsh=cnJIODdhbXI1bnBs" target="_blank">Instagram</a>
+    <a href="https://x.com/adele" target="_blank">Twitter/X</a>
+    <a href="https://www.youtube.com/channel/UCsRM0YB_dabtEPGPTKo-gcw" target="_blank">YouTube</a>
+    <a href="https://open.spotify.com/intl-pt/artist/4dpARuHxo51G3z768sgnrY?si=-F5oSQIhTuKfkvGCGwLaKg" target="_blank">Spotify</a> 
+  </div>
+</body>
+</html>
